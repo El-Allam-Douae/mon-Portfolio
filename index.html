@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Douae El Allam</title>
+  <meta
+    name="description"
+    content="Portfolio de Douae El Allam, étudiante ingénieure en Management et Gouvernance des Systèmes d'Information."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="header">
+      <nav class="navbar container">
+
+        <div class="nav-dropdown">
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+            aria-controls="navLinks"
+          >
+            ☰
+          </button>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#activities">Activités</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-content">
+          <div class="hero-text">
+            
+            <h1>EL ALLAM Douae</h1>
+            <h2>Étudiante ingénieure en Management et Gouvernance des Systèmes d'Information</h2>
+            <p class="hero-description">
+              Passionnée par la gouvernance IT, la transformation digitale, l'analyse des données
+              et la conception de solutions utiles, avec une approche structurée et orientée impact.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn">Voir mes projets</a>
+              <a href="cv/mon-cv.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Télécharger mon CV</a>
+            </div>
+
+            <div class="hero-highlights">
+              <div class="highlight-card">
+                <span>Spécialité</span>
+                <strong>MGSI</strong>
+              </div>
+              <div class="highlight-card">
+                <span>Focus</span>
+                <strong>Systèmes d'information, IT & Gouvernance</strong>
+              </div>
+            </div>
+          </div>
+
+        
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Présentation</p>
+            <h2>À propos</h2>
+          </div>
+
+          <div class="about-panel">
+            <p>
+              Étudiante en ingénierie motivée, spécialisée en Management et Gouvernance des
+              Systèmes d'Information, désireuse d'appliquer ses compétences analytiques et de
+              résolution de problèmes dans un environnement professionnel dynamique.
+            </p>
+            <p>
+              Passionnée par la gestion des systèmes d'information, l'analyse des données, la
+              transformation digitale et la gouvernance IT.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Savoir-faire</p>
+            <h2>Compétences</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="info-card">
+              <h3>Frontend</h3>
+              <p>HTML, CSS, JavaScript, Blade, Tailwind CSS</p>
+            </article>
+
+            <article class="info-card">
+              <h3>Langages de programmation</h3>
+              
+              <p>PHP Laravel, Python, Java (JavaFX, Spring Boot, Java EE), C</p>
+            </article>
+
+            <article class="info-card">
+              <h3>Base de données</h3>
+              <p>MySQL</p>
+            </article>
+
+            <article class="info-card">
+              <h3>Conception</h3>
+              <p>UML, Merise</p>
+            </article>
+
+            <article class="info-card">
+              <h3>Autres compétences</h3>
+              <p>ERP, gestion de projet, intelligence artificielle, recherche opérationnelle</p>
+            </article>
+
+            <article class="info-card">
+              <h3>Outils</h3>
+              <p>Git, GitHub, VS Code, IntelliJ, Postman</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="activities">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Engagement</p>
+            <h2>Activités parascolaires</h2>
+          </div>
+
+          <div class="activities-list">
+            <article class="activity-item">
+              <span class="activity-index">01</span>
+              <p>Vice-chef de la cellule technique de l'événement DigitalGov de la filière MGSI</p>
+            </article>
+
+            <article class="activity-item">
+              <span class="activity-index">02</span>
+              <p>Hult Prize : membre de l'équipe gagnante de la finale de l'ENSA Khouribga</p>
+            </article>
+
+            <article class="activity-item">
+              <span class="activity-index">03</span>
+              <p>ClubCodex : membre de l'unité d'exposition</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Réalisations</p>
+            <h2>Mes projets</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <img src="images/project1.png" alt="Application desktop de gestion d'un centre de loisirs" />
+              <div class="project-content">
+                <h3>Application desktop de gestion d'un centre de loisirs</h3>
+                <p>
+                  Développement d’une application desktop en Java avec JavaFX permettant la gestion complète d’un centre de loisirs.
+                  L’application permet d’administrer les activités, le personnel, les réservations et les paiements, avec une interface graphique interactive facilitant l’organisation et le suivi des opérations du centre.
+                </p>
+                <br>
+                <div class="tech-list" aria-label="Technologies utilisées">
+                  <span>Java</span>
+                  <span>JavaFX</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="images/project2.png" alt="Système de collecte et d'affichage des taux de change" />
+              <div class="project-content">
+                <h3>Système de collecte et d'affichage des taux de change</h3>
+                <p>
+                  une application web basée sur Laravel permettant la collecte, la centralisation et l’affichage des taux de change provenant de plusieurs fournisseurs d’API.
+                  Le système optimise les appels aux APIs afin de réduire les requêtes et les ressources consommées, tout en facilitant la consultation et la gestion des taux.
+                </p><br>
+                <div class="tech-list" aria-label="Technologies utilisées">
+                  <span>PHP</span>
+                  <span>Laravel</span>
+                  <span>APIs REST</span>
+                  <span>MySQL</span>
+                </div>
+
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="images/project3.png" alt="Système de présence par QR code" />
+              <div class="project-content">
+                <h3>Système de présence par QR code</h3>
+                <p>
+             Développement d’une application web de gestion des présences étudiantes via QR code permettant le suivi automatisé des présences lors des séances.
+             Le système inclut la gestion des séances, l’enregistrement des présences et des tableaux de bord de suivi pour les enseignants.
+</p><br>
+             <p>
+                </p>
+                <div class="tech-list" aria-label="Technologies utilisées">
+                  <span>Python</span>
+                  <span>PHP</span>
+                  <span>Laravel</span>
+                  <span>MySQL</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="images/project4.png" alt="Application web de gestion d'un supermarché" />
+              <div class="project-content">
+                <h3>Application web de gestion d'un supermarché</h3>
+                <p>
+               Réalisation d’une application web de gestion de supermarché permettant l’administration des produits, commandes, stocks et statistiques commerciales.
+               L’application fournit des outils de gestion facilitant le suivi des ventes et l’organisation des ressources.
+                </p><br>
+                <p>
+                </p>
+                <div class="tech-list" aria-label="Technologies utilisées">
+                  <span>Java EE</span>
+                  <span>Spring Boot</span>
+                  <span>MySQL</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="images/project5.png" alt="Mini-forum web dynamique" />
+              <div class="project-content">
+                <h3>Mini-forum web dynamique</h3>
+                <p>
+               Développement d’un site web de mini-forum dynamique permettant aux utilisateurs de créer des sujets, publier des commentaires et interagir au sein d’une communauté en ligne.
+                </p>
+                <br>
+                <p>
+                </p>
+                <div class="tech-list" aria-label="Technologies utilisées">
+                  <span>PHP</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>MySQL</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="images/project6.png" alt="site vitrine" />
+              <div class="project-content">
+                <h3>Site vitrine</h3>
+                <p>
+                Application web vitrine premium pour un studio d’architecture d’intérieur et d’ameublement, orienté marché marocain et international.
+Le site est multilingue (FR/EN/AR), responsive, rapide, avec une identité visuelle minimaliste/futuriste.
+Il intègre un parcours de conversion complet: formulaire de lead, contact WhatsApp, automatisations backend, et un espace admin sécurisé pour gérer les demandes (recherche, tri, filtres, export CSV).
+                </p><br>
+                <p>
+                </p>
+                <div class="tech-list" aria-label="Technologies utilisées">
+                  <span>Next.js</span>
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>Tailwind CSS</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="contact-panel">
+            <div class="section-heading">
+              <p class="eyebrow">Coordonnées</p>
+              <h2>Contact</h2>
+            </div>
+
+            <p class="contact-text">
+              Disponible pour des opportunités, des stages et des collaborations autour du
+              développement, de la data et des systèmes d'information.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:elallamdouae04@gmail.com">elallamdouae04@gmail.com</a>
+              <a href="https://github.com/El-Allam-Douae/" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/douae-el-allam-6b0616317/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 El Allam Douae - Tous droits réservés.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
